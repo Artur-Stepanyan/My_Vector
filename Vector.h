@@ -16,7 +16,6 @@ class Vector
         Vector& operator+=(const Vector& vec); 
         friend std::ostream& operator<<(std::ostream& os, const Vector& vec);
 
-
         //member functions
         int Size() const;
         int Capacity() const;
