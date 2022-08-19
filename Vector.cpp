@@ -202,7 +202,7 @@ void Vector::remove_by_value(int value)
     else 
     {
         std::cout << "remove_by_value:"
-        << " nothing was removed\n";
+        << " no such element\n";
     }
 }
 
